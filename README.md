@@ -1,6 +1,4 @@
-Wretched little docker image to make ansible, postgres, and rundeck all cooperate in the same environment. 
-
-maybe I'll even get the cloudflare tunnel working too
+Wretched little docker image to make ansible, postgres, rundeck, and a cloudflared tunnel all cooperate in the same environment. 
 
 Reference:
 https://www.reddit.com/r/Rundeck/comments/1b2o9bs/comment/ksoflgj/
