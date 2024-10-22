@@ -12,7 +12,7 @@ services:
             RUNDECK_GRAILS_URL: ${GRAILS_URL}
         volumes:
           - ${RUNDECK_LICENSE_FILE:-/dev/null}:/home/rundeck/etc/rundeckpro-license.key
-          - ./data:${HOME}/data
+          - ./data/resources.yaml:/home/rundeck/server/data/resources.yaml
         ports:
           - 127.0.0.1:4440:4440
     postgres:
